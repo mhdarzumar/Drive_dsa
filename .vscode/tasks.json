@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile and run",
+            "type": "shell",
+            "command": "javac C:\\Users\\moham\\OneDrive\\Desktop\\contest\\maximumWeightNode.java && java -cp C:\\Users\\moham\\OneDrive\\Desktop\\contest maximumWeightNode < C:\\Users\\moham\\OneDrive\\Desktop\\contest\\input.txt > C:\\Users\\moham\\OneDrive\\Desktop\\contest\\output.txt",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
