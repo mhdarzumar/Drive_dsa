@@ -2,13 +2,15 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "compile and run",
+            "label": "Compile and Run",
             "type": "shell",
-            "command": "javac C:\\Users\\moham\\OneDrive\\Desktop\\contest\\maximumWeightNode.java && java -cp C:\\Users\\moham\\OneDrive\\Desktop\\contest maximumWeightNode < C:\\Users\\moham\\OneDrive\\Desktop\\contest\\input.txt > C:\\Users\\moham\\OneDrive\\Desktop\\contest\\output.txt",
+            "command": "javac \"${fileDirname}/contest.java\" && java -cp \"${fileDirname}\" contest < \"${fileDirname}/input.txt\" > \"${fileDirname}/output.txt\"",
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": [],
+            "detail": "Compiles and runs the Java program with input redirection"
         }
     ]
 }
